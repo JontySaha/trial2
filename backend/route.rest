@@ -1,0 +1,26 @@
+GET http://localhost:9000/subscribers
+
+###
+Get http://localhost:9000/subscribers/
+###
+POST http://localhost:9000/subscribers
+Content-Type: application/json
+
+{   
+    //"id": 3,
+    "name": "amazing person after done 123",
+    "subscriberToChannel": "web dev simplified"
+}
+
+###
+DELETE http://localhost:9000/subscribers/6058b2ee8548fa24188829ee
+
+
+###
+PATCH http://localhost:9000/subscribers/60578e24df6f762d6c57dd9b
+Content-Type: application/json
+
+{
+    "name": "sayak",
+    "subscriberToChannel": "dec223"
+}
